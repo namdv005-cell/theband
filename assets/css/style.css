@@ -1,0 +1,43 @@
+b/* reset css  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#ropber{
+
+}
+
+#header{
+    height: 46px;
+    background-color: #000;
+}
+
+#nav{
+
+}
+#nav li{
+    display: inline-block;
+}
+#nav li a{
+    color: #a13333;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 29px;
+}
+
+#nav.subnav{
+    display: none;
+}
+
+#slider{
+
+}
+
+#content{
+
+}
+
+#footer{
+
+}
