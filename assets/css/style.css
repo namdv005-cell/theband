@@ -7,9 +7,7 @@ b/* reset css  */
 html{
     font-family: Arial, Helvetica, sans-serif;
 }
-#ropber{
 
-}
 body{
     margin: 0;
 }
@@ -98,35 +96,26 @@ body{
     background: url('/assets/IMG/slider/slider1.jpg') top center / cover no-repeat;
 }
 
-#content{
-
-}
 
 #content .content-heading{
-    width: auto;
-    padding: 64px 0;
-    margin-left: auto;
+    /* width: auto; */
+    /* margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    text-align: center; */
 }
-#content .section-sub-heading{
+.section-sub-heading{
     font-size: 15px;
     text-align: center;
 }
-    
 
 #content .member-list{
   margin-top: 48px;
 }
 #content .member-item{
-   float: left;
    width: 33.33333%;
    text-align:center;
 }
 #content .member-img{
     width: 100%;
     height: auto;
-}
-#footer{
-    
 }
