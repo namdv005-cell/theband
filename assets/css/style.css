@@ -1,4 +1,4 @@
- b/* reset css  */
+b/* reset css  */
 *{
     padding: 0;
     margin: 0;
@@ -62,13 +62,15 @@ body{
     background-color: #ccc;
     list-style: none;
     padding: 0;
+    width: 400px;
+    height: 400px;
 }
 #nav li:hover .subnav{
     display: block;
 }
 #nav .subnav li a{
     color: #000;
-    padding: 10px 20px; 
+    padding: 0 20px 0 15px; 
     display: block;
 }S
 #nav .subnav a{
@@ -102,10 +104,29 @@ body{
 
 #content .content-heading{
     width: auto;
-    padding: 50px 0;
+    padding: 64px 0;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+}
+#content .section-sub-heading{
+    font-size: 15px;
+    text-align: center;
+}
+    
+
+#content .member-list{
+  margin-top: 48px;
+}
+#content .member-item{
+   float: left;
+   width: 33.33333%;
+   text-align:center;
+}
+#content .member-img{
+    width: 100%;
+    height: auto;
 }
 #footer{
-
+    
 }
